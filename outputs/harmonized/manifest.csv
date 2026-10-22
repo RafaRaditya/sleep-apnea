@@ -1,0 +1,52 @@
+﻿dataset,record_id,subject_id,native_fs_ecg,native_fs_resp,target_fs,resp_channel,duration_h,n_samples,n_epochs_30s,n_labeled_30s,n_apnea_30s,apnea_prevalence_30s,n_native_label_units,native_label_unit_s,nan_fraction_ecg,nan_fraction_resp,max_nan_gap_resp_s,sleep_known_fraction,n_sleep_30s,sleep_fraction_30s,notes
+apnea-ecg,a01er,a01,100.0,100.0,100.0,Resp N,8.213,2956796,985,978,940,0.961145,489,60.0,0.0,0.0,0.0,0.0,,,minute-level labels; respiration channels require base + r records
+apnea-ecg,a02er,a02,100.0,100.0,100.0,Resp N,8.838,3181796,1060,1056,840,0.795455,528,60.0,0.0,0.0,0.0,0.0,,,minute-level labels; respiration channels require base + r records
+apnea-ecg,a03er,a03,100.0,100.0,100.0,Resp N,8.708,3134796,1044,1038,492,0.473988,519,60.0,0.0,0.0,0.0,0.0,,,minute-level labels; respiration channels require base + r records
+apnea-ecg,a04er,a04,100.0,100.0,100.0,Resp N,8.277,2979796,993,984,906,0.920732,492,60.0,0.0,0.0,0.01,0.0,,,minute-level labels; respiration channels require base + r records
+apnea-ecg,b01er,b01,100.0,100.0,100.0,Resp N,8.102,2916796,972,972,38,0.039095,487,60.0,0.0,0.0,0.0,0.0,,,minute-level labels; respiration channels require base + r records
+apnea-ecg,c01er,c01,100.0,100.0,100.0,Resp N,8.052,2898796,966,966,0,0.0,484,60.0,0.0,0.0,0.0,0.0,,,minute-level labels; respiration channels require base + r records
+apnea-ecg,c02er,c02,100.0,100.0,100.0,Resp N,8.352,3006796,1002,1002,2,0.001996,502,60.0,0.0,0.0,0.0,0.0,,,minute-level labels; respiration channels require base + r records
+apnea-ecg,c03er,c03,100.0,100.0,100.0,Resp N,7.555,2719796,906,906,0,0.0,454,60.0,0.0,0.0,0.0,0.0,,,minute-level labels; respiration channels require base + r records
+slpdb,slp01a,slp01,250.0,250.0,100.0,Resp (sum),2.0,720000,240,240,37,0.154167,240,30.0,0.0,0.0,0.0,1.0,232.0,0.966667,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp01b,slp01,250.0,250.0,100.0,Resp (sum),3.0,1080000,360,360,65,0.180556,360,30.0,0.0,0.0,0.0,1.0,180.0,0.5,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp02a,slp02,250.0,250.0,100.0,Resp (nasal),3.0,1080000,360,360,91,0.252778,360,30.0,0.0,0.0,0.0,1.0,308.0,0.855556,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp02b,slp02,250.0,250.0,100.0,Resp (nasal),2.25,810000,270,270,42,0.155556,270,30.0,0.0,0.0,0.0,1.0,162.0,0.6,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp03,slp03,250.0,250.0,100.0,Resp (nasal),6.0,2160000,720,720,241,0.334722,720,30.0,0.0,0.0,0.0,1.0,569.0,0.790278,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp04,slp04,250.0,250.0,100.0,Resp (nasal),6.0,2160000,720,720,317,0.440278,720,30.0,0.0,0.0,0.0,1.0,558.0,0.775,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp14,slp14,250.0,250.0,100.0,Resp (nasal),6.0,2160000,720,714,182,0.254902,714,30.0,0.0,0.0,0.0,0.991667,392.0,0.544444,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp16,slp16,250.0,250.0,100.0,Resp (nasal),6.0,2160000,720,694,295,0.425072,694,30.0,0.0,0.0,0.0,0.963889,378.0,0.525,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp32,slp32,250.0,250.0,100.0,Resp (nasal),5.333,1920000,640,640,118,0.184375,640,30.0,0.0,0.0,0.0,1.0,246.0,0.384375,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp37,slp37,250.0,250.0,100.0,Resp (nasal),5.833,2100000,700,698,554,0.793696,698,30.0,0.0,0.0,0.0,0.997143,623.0,0.89,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp41,slp41,250.0,250.0,100.0,Resp (nasal),6.5,2340000,780,780,0,0.0,780,30.0,0.0,0.0,0.0,1.0,551.0,0.70641,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp45,slp45,250.0,250.0,100.0,Resp (nasal),6.333,2280000,760,760,0,0.0,760,30.0,0.0,0.0,0.0,1.0,637.0,0.838158,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp48,slp48,250.0,250.0,100.0,Resp (nasal),6.333,2280000,760,760,293,0.385526,760,30.0,0.0,0.0,0.0,1.0,546.0,0.718421,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp59,slp59,250.0,250.0,100.0,Resp (nasal),4.0,1440000,480,458,209,0.456332,458,30.0,0.0,0.0,0.0,0.954167,318.0,0.6625,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp60,slp60,250.0,250.0,100.0,Resp (nasal),5.917,2130000,710,710,341,0.480282,710,30.0,0.0,0.0,0.0,1.0,424.0,0.597183,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp61,slp61,250.0,250.0,100.0,Resp (abdominal),6.167,2220000,740,720,253,0.351389,720,30.0,0.0,0.0,0.0,0.972973,596.0,0.805405,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp66,slp66,250.0,250.0,100.0,Resp (nasal),3.667,1320000,440,439,229,0.52164,439,30.0,0.0,0.0,0.0,0.997727,264.0,0.6,30-s epoch labels (stage + event tokens); no event durations
+slpdb,slp67x,slp67,250.0,250.0,100.0,Resp (nasal),1.283,462000,154,154,73,0.474026,154,30.0,0.0,0.0,0.0,1.0,82.0,0.532468,30-s epoch labels (stage + event tokens); no event durations
+ucddb,ucddb002,ucddb002,128.0,8.0,100.0,Flow,6.242,2247000,749,748,182,0.243316,748,30.0,0.0,0.0,0.0,0.998665,627.0,0.837116,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb003,ucddb003,128.0,8.0,100.0,Flow,7.355,2647800,882,882,377,0.427438,882,30.0,0.0,0.0,0.0,1.0,714.0,0.809524,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb005,ucddb005,128.0,8.0,100.0,Flow,6.888,2479800,826,826,91,0.110169,826,30.0,0.0,0.0,0.0,1.0,517.0,0.625908,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb006,ucddb006,128.0,8.0,100.0,Flow,6.741,2426700,808,808,210,0.259901,808,30.0,0.0,0.0,0.0,1.0,716.0,0.886139,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb007,ucddb007,128.0,8.0,100.0,Flow,6.779,2440500,813,813,109,0.134071,813,30.0,0.0,0.0,0.0,1.0,729.0,0.896679,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb008,ucddb008,128.0,8.0,100.0,Flow,6.4,2304100,768,768,27,0.035156,768,30.0,0.0,0.0,0.0,0.985677,494.0,0.643229,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb009,ucddb009,128.0,8.0,100.0,Flow,7.711,2775900,925,925,104,0.112432,925,30.0,0.0,0.0,0.0,1.0,735.0,0.794595,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb010,ucddb010,128.0,8.0,100.0,Flow,7.559,2721100,907,907,245,0.270121,907,30.0,0.0,0.0,0.0,1.0,833.0,0.918412,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb011,ucddb011,128.0,8.0,100.0,Flow,7.508,2703000,901,900,52,0.057778,900,30.0,0.0,0.0,0.0,0.99889,544.0,0.603774,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb012,ucddb012,128.0,8.0,100.0,Flow,7.206,2594100,864,864,252,0.291667,864,30.0,0.0,0.0,0.0,1.0,735.0,0.850694,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb013,ucddb013,128.0,8.0,100.0,Flow,6.759,2433300,811,811,97,0.119605,811,30.0,0.0,0.0,0.0,1.0,494.0,0.609125,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb014,ucddb014,128.0,8.0,100.0,Flow,6.455,2323900,774,774,295,0.381137,774,30.0,0.0,0.0,0.0,1.0,609.0,0.786822,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb015,ucddb015,128.0,8.0,100.0,Flow,7.636,2748800,916,916,57,0.062227,916,30.0,0.0,0.0,0.0,1.0,708.0,0.772926,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb017,ucddb017,128.0,8.0,100.0,Flow,6.579,2368400,789,789,90,0.114068,789,30.0,0.0,0.0,0.0,1.0,686.0,0.869455,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb018,ucddb018,128.0,8.0,100.0,Flow,6.857,2468500,822,822,15,0.018248,822,30.0,0.0,0.0,0.0,1.0,494.0,0.600973,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb019,ucddb019,128.0,8.0,100.0,Flow,7.104,2557300,852,852,136,0.159624,852,30.0,0.0,0.0,0.0,1.0,781.0,0.916667,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb020,ucddb020,128.0,8.0,100.0,Flow,6.274,2258600,752,752,108,0.143617,752,30.0,0.0,0.0,0.0,1.0,583.0,0.775266,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb021,ucddb021,128.0,8.0,100.0,Flow,7.614,2740900,913,913,107,0.117196,913,30.0,0.0,0.0,0.0,1.0,747.0,0.818182,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb022,ucddb022,128.0,8.0,100.0,Flow,6.567,2364000,788,787,40,0.050826,787,30.0,0.0,0.0,0.0,0.998731,460.0,0.583756,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb023,ucddb023,128.0,8.0,100.0,Flow,7.181,2585000,861,861,248,0.288037,861,30.0,0.0,0.0,0.0,1.0,579.0,0.672474,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb024,ucddb024,128.0,8.0,100.0,Flow,7.569,2725000,908,908,218,0.240088,908,30.0,0.0,0.0,0.0,0.995595,749.0,0.82489,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb025,ucddb025,128.0,8.0,100.0,Flow,5.931,2135000,711,711,590,0.829817,711,30.0,0.0,0.0,0.0,1.0,548.0,0.770745,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb026,ucddb026,128.0,8.0,100.0,Flow,6.989,2516000,838,838,127,0.151551,838,30.0,0.0,0.0,0.0,1.0,726.0,0.866348,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb027,ucddb027,128.0,8.0,100.0,Flow,7.442,2679100,893,893,357,0.399776,893,30.0,0.0,0.0,0.0,1.0,766.0,0.857783,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"
+ucddb,ucddb028,ucddb028,128.0,8.0,100.0,Flow,6.017,2166000,722,721,278,0.385576,721,30.0,0.0,0.0,0.0,0.998615,493.0,0.682825,"use .rec (PSG), not _lifecard.edf (ECG-only); events have onset+duration"

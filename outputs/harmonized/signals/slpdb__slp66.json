@@ -1,0 +1,63 @@
+{
+  "dataset": "slpdb",
+  "record_id": "slp66",
+  "subject_id": "slp66",
+  "source": {
+    "label_source": ".st",
+    "label_unit_s": 30.0,
+    "signal_names": [
+      "ECG",
+      "BP",
+      "EEG (C3-O1)",
+      "Resp (nasal)",
+      "Resp (abdomen)",
+      "SV",
+      "SO2"
+    ],
+    "resp_channel": "Resp (nasal)",
+    "resp_channels_available": "Resp (nasal)",
+    "native_fs_ecg": 250.0,
+    "native_fs_resp": 250.0
+  },
+  "harmonized": {
+    "target_fs": 100.0,
+    "n_samples": 1320000,
+    "duration_h": 3.6667,
+    "n_epochs_30s": 440,
+    "n_labeled_30s": 439,
+    "n_apnea_30s": 229,
+    "apnea_prevalence_30s": 0.52164,
+    "nan_fraction_ecg": 0.0,
+    "nan_fraction_resp": 0.0,
+    "max_nan_gap_ecg_s": 0.0,
+    "max_nan_gap_resp_s": 0.0,
+    "sleep_known_fraction": 0.997727,
+    "n_sleep_30s": 264,
+    "sleep_fraction_30s": 0.6
+  },
+  "notes": "30-s epoch labels (stage + event tokens); no event durations",
+  "manifest": {
+    "dataset": "slpdb",
+    "record_id": "slp66",
+    "subject_id": "slp66",
+    "native_fs_ecg": 250.0,
+    "native_fs_resp": 250.0,
+    "target_fs": 100.0,
+    "resp_channel": "Resp (nasal)",
+    "duration_h": 3.667,
+    "n_samples": 1320000,
+    "n_epochs_30s": 440,
+    "n_labeled_30s": 439,
+    "n_apnea_30s": 229,
+    "apnea_prevalence_30s": 0.52164,
+    "n_native_label_units": 439,
+    "native_label_unit_s": 30.0,
+    "nan_fraction_ecg": 0.0,
+    "nan_fraction_resp": 0.0,
+    "max_nan_gap_resp_s": 0.0,
+    "sleep_known_fraction": 0.997727,
+    "n_sleep_30s": 264,
+    "sleep_fraction_30s": 0.6,
+    "notes": "30-s epoch labels (stage + event tokens); no event durations"
+  }
+}

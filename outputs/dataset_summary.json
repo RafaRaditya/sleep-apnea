@@ -1,0 +1,47 @@
+{
+  "apnea-ecg": {
+    "n_records": 8,
+    "n_subjects": 8,
+    "total_duration_h": 66.1,
+    "n_label_units": 3955,
+    "n_apnea_units": 1609,
+    "apnea_prevalence": 0.4068,
+    "n_events": null,
+    "n_apnea_events": null,
+    "mean_ahi": null,
+    "mean_sleep_fraction": null
+  },
+  "slpdb": {
+    "n_records": 18,
+    "n_subjects": 16,
+    "total_duration_h": 85.62,
+    "n_label_units": 10197,
+    "n_apnea_units": 3340,
+    "apnea_prevalence": 0.3275,
+    "n_events": 4061,
+    "n_apnea_events": 3496,
+    "mean_ahi": null,
+    "mean_sleep_fraction": 0.6875
+  },
+  "ucddb": {
+    "n_records": 25,
+    "n_subjects": 25,
+    "total_duration_h": 173.36,
+    "n_label_units": 20789,
+    "n_apnea_units": 4412,
+    "apnea_prevalence": 0.2122,
+    "n_events": 3337,
+    "n_apnea_events": 3318,
+    "mean_ahi": 24.24,
+    "mean_sleep_fraction": 0.7711
+  },
+  "overall": {
+    "n_records": 51,
+    "n_subjects": 49,
+    "total_duration_h": 325.08,
+    "n_label_units": 34941,
+    "n_apnea_units": 9361,
+    "apnea_prevalence": 0.2679
+  },
+  "warnings": []
+}

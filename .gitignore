@@ -1,0 +1,19 @@
+# Raw datasets (download separately from PhysioNet)
+apnea-ecg/
+slpdb/
+ucddb/
+
+# Large harmonized signal files (regenerate with: python code/harmonize.py)
+outputs/harmonized/signals/*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Tooling / OS
+.commandcode/
+.DS_Store
+Thumbs.db

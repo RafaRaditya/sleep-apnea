@@ -1,0 +1,61 @@
+{
+  "dataset": "apnea-ecg",
+  "record_id": "c03er",
+  "subject_id": "c03",
+  "source": {
+    "label_source": ".apn",
+    "label_unit_s": 60.0,
+    "signal_names": [
+      "ECG",
+      "Resp C",
+      "Resp A",
+      "Resp N",
+      "SpO2"
+    ],
+    "resp_channel": "Resp N",
+    "resp_channels_available": "Resp C;Resp A;Resp N",
+    "native_fs_ecg": 100.0,
+    "native_fs_resp": 100.0
+  },
+  "harmonized": {
+    "target_fs": 100.0,
+    "n_samples": 2719796,
+    "duration_h": 7.555,
+    "n_epochs_30s": 906,
+    "n_labeled_30s": 906,
+    "n_apnea_30s": 0,
+    "apnea_prevalence_30s": 0.0,
+    "nan_fraction_ecg": 0.0,
+    "nan_fraction_resp": 0.0,
+    "max_nan_gap_ecg_s": 0.0,
+    "max_nan_gap_resp_s": 0.0,
+    "sleep_known_fraction": 0.0,
+    "n_sleep_30s": null,
+    "sleep_fraction_30s": null
+  },
+  "notes": "minute-level labels; respiration channels require base + r records",
+  "manifest": {
+    "dataset": "apnea-ecg",
+    "record_id": "c03er",
+    "subject_id": "c03",
+    "native_fs_ecg": 100.0,
+    "native_fs_resp": 100.0,
+    "target_fs": 100.0,
+    "resp_channel": "Resp N",
+    "duration_h": 7.555,
+    "n_samples": 2719796,
+    "n_epochs_30s": 906,
+    "n_labeled_30s": 906,
+    "n_apnea_30s": 0,
+    "apnea_prevalence_30s": 0.0,
+    "n_native_label_units": 454,
+    "native_label_unit_s": 60.0,
+    "nan_fraction_ecg": 0.0,
+    "nan_fraction_resp": 0.0,
+    "max_nan_gap_resp_s": 0.0,
+    "sleep_known_fraction": 0.0,
+    "n_sleep_30s": null,
+    "sleep_fraction_30s": null,
+    "notes": "minute-level labels; respiration channels require base + r records"
+  }
+}
